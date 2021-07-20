@@ -8,7 +8,6 @@
 </template>
 
 <script>
-import basicForm from './form';
 
 const attendanceStatusEnum = [
   { label: '内勤打卡', val: 'INNER' },
@@ -18,7 +17,6 @@ const attendanceStatusEnum = [
 export default {
   name: 'TestForm',
   components: {
-    basicForm,
   },
   data() {
     return {

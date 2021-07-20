@@ -9,12 +9,10 @@
 </template>
 
 <script>
-import basicTable from './table.vue';
 
 export default {
   name: 'TestTable',
   components: {
-    basicTable,
   },
   data() {
     return {

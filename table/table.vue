@@ -29,9 +29,10 @@
           <el-radio v-model="currentRowId" :label="scope.row[selectedDataKey]"></el-radio>
         </template>
       </el-table-column>
-      <template v-for="item in columns">
+      <template>
         <el-table-column
           v-bind="item"
+           v-for="item in columns"
           :key="item.prop"
           :width="getColumnWidth(item)"
         >
